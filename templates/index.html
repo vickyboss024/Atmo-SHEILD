@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atmo SHEILD — AI Air Pollution & Health Advisory</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">🌿 Atmo SHEILD</div>
+        <nav class="nav">
+            <a href="/">Dashboard</a>
+            <a href="/nearby">Nearby</a>
+            <a href="/advisory">AI Advisory</a>
+            <a href="/history">History</a>
+        </nav>
+        <div class="user-badge">👤 Guest User</div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Breathe smarter. Understand your air.</h1>
+            <p>Live environmental telemetry, circular AQI gauges, and personalized respiratory precautions.</p>
+        </section>
+
+        <section class="dashboard-grid">
+            <div class="card live-card">
+                <h2>🌫️ Live Air Quality & Weather</h2>
+                <div class="source-tag">🟢 Live Data • Updated 2 minutes ago (Sensor / API)</div>
+                <div class="aqi-display">
+                    <span class="aqi-number" id="aqi-value">85</span>
+                    <span class="aqi-badge medium">MEDIUM 🟡</span>
+                </div>
+                <div class="metrics-grid">
+                    <div>PM2.5: <strong>32.4 µg/m³</strong></div>
+                    <div>PM10: <strong>68.1 µg/m³</strong></div>
+                    <div>CO: <strong>0.6 mg/m³</strong></div>
+                    <div>NO₂: <strong>24.2 µg/m³</strong></div>
+                    <div>SO₂: <strong>8.1 µg/m³</strong></div>
+                    <div>O₃: <strong>38.0 µg/m³</strong></div>
+                </div>
+                <div class="weather-row">
+                    <span>🌡️ 29°C</span>
+                    <span>🌤️ Partly Cloudy</span>
+                    <span>💧 Humidity: 72%</span>
+                    <span>🌬️ Wind: 12 km/h</span>
+                </div>
+            </div>
+
+            <div class="card gauge-card">
+                <h2>Circular AQI Meter</h2>
+                <p>What does this mean?</p>
+                <p class="meaning-text">Air quality may affect sensitive people or prolonged outdoor activity.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

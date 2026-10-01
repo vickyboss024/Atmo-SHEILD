@@ -1,0 +1,53 @@
+/* Atmo SHEILD Stylesheet */
+:root {
+    --bg-page: #f8fafc;
+    --text-primary: #0f172a;
+    --color-low: #10b981;
+    --color-med: #eab308;
+    --color-high: #ef4444;
+}
+
+body {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: #047857;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.aqi-badge.medium {
+    color: #854d0e;
+    background: #fef9c3;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-weight: 700;
+}

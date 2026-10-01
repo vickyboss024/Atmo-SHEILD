@@ -1,0 +1,10 @@
+{
+  "name": "Remix Atmo SHEILD — Air Pollution \u0026 Health Advisory",
+  "description": "Real-time  air pollution monitoring, AQI circular gauge, nearby air quality, personalized health advisory, and historical analytics.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
